@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="telegram" unicode="&#60153;" d="M417.28 100.266667 429.226667 280.746667 756.906667 576C771.413333 589.226667 753.92 595.626667 734.72 584.106667L330.24 328.533333 155.306667 384C117.76 394.666667 117.333333 420.693333 163.84 439.466667L845.226667 702.293333C876.373333 716.373333 906.24 694.613333 894.293333 646.826667L778.24 100.266667C770.133333 61.44 746.666667 52.053333 714.24 69.973333L537.6 200.533333 452.693333 118.186667C442.88 108.373333 434.773333 100.266667 417.28 100.266667Z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>
