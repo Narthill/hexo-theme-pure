@@ -25,4 +25,7 @@
     <% if (theme.comment.type === 'gitment' && !is_home() && !is_category() && !is_tag() && !is_archive() && post.comments) { %>
         <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
     <% } %>
+    <% if (theme.comment.type === 'gitalk' && !is_home() && !is_category() && !is_tag() && !is_archive() && post.comments) { %>
+        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+    <% } %>
 <% } %>
