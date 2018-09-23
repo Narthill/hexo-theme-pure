@@ -41,8 +41,8 @@ config:
   skin: theme-black # 主题颜色 theme-black theme-blue theme-green theme-purple
   layout: main-center # 布局方式 main-left main-center main-right
   toc: true # 是否开启文章章节目录导航
-  menu_highlight: false # 是否开启当前菜单高亮显示
-  thumbnail: false # enable posts thumbnail, options: true, false
+  menu_highlight: true # 是否开启当前菜单高亮显示
+  thumbnail: true # enable posts thumbnail, options: true, false
   excerpt_link: Read More
 
 # Pagination
@@ -76,8 +76,6 @@ show_count: true
 # Search
 search:
   insight: true # you need to install `hexo-generator-json-content` before using Insight Search
-  swiftype: # enter swiftype install key here
-  baidu: false # you need to disable other search engines to use Baidu search
 
 # Donate
 donate:
@@ -133,7 +131,7 @@ douban:
 # PV
 pv:
   busuanzi:
-    enable: false  # 不蒜子统计
+    enable: true  # 不蒜子统计
   leancloud:
     enable: false  # leancloud统计
     app_id: # leancloud <AppID>
@@ -141,7 +139,7 @@ pv:
         
 # wordcount
 postCount:
-  enable: false
+  enable: true
   wordcount: true  # 文章字数统计
   min2read: true  # 阅读时长预计 
 
@@ -149,9 +147,6 @@ postCount:
 plugins:
   google_analytics: # enter the tracking ID for your Google Analytics
   google_site_verification: # enter Google site verification code
-  baidu_analytics: # enter Baidu Analytics hash key
-  tencent_analytics: 
-  
 # Miscellaneous
 twitter:
 google_plus:
@@ -165,7 +160,7 @@ profile:
   gravatar: narthil.ch@gmail.com
   author: Narthil
   author_title: fuck me !
-  author_description: 学生,考研中,主力语言是java和c++,对web全栈有较浓的兴趣。菜鸡一只
+  author_description: 学生,考研中,主力语言java和c++,对web全栈有一定兴趣。菜鸡一只。
   location: Chongqing, China
   follow: https://github.com/Narthill
   # Social Links
