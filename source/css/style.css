@@ -484,7 +484,7 @@ h6,
 }
 
 p {
-  margin: 0 0 10px;
+  margin: 0 0 10px 0;
 }
 
 .lead {
@@ -5953,6 +5953,13 @@ body.no-sidebar .sidebar {
   margin-bottom: 70px;
 }
 
+.main img{
+  box-sizing: border-box;
+  margin: auto;
+  padding: 3px;
+  border: 1px solid #ddd;
+}
+
 #comments .gitment-footer-container,
 #comments .gitment-footer-project-link {
   display: none !important;
@@ -6095,6 +6102,16 @@ body.no-sidebar .sidebar {
 
 .tagcloud a {
   display: inline-block;
+  line-height: 20px;
+  height: 20px;
+  margin: 3px;
+  padding: 0 3px;
+  color: #555;
+  border-radius: 3px;
+  background: #eee;
+  min-width: 30px;
+  font-size: 12px;
+  text-align: center;
 }
 
 .bar .pager .next > a,
